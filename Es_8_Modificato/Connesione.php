@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-<?phP
+<?php
 $host = "localhost";
 $root = "root";
-$password ="";
-$db = "db_es8";
+$password ="Federico22giulia";
+$db = "quintaa_assicurazioni";
 
-$connessione = mysqli_connect($host, $root, $password, $db);
+$connessione = mysqli_connect($host, $root, $password, $db) or die ("Errore nel codice" . mysqli_connect_error());
 
 ?>
 </body>
